@@ -34,7 +34,7 @@ abstract class AbstractPasswordLog extends Action
     /**
      * Authorization level of a basic admin session
      */
-    const ADMIN_RESOURCE = 'KiwiCommerce_CustomerPassword::password_log';
+    const ADMIN_RESOURCE = 'Lof_CustomerPassword::password_log';
 
     /**
      * @var PageFactory

@@ -1,12 +1,22 @@
 <?php
 /**
- * Do not edit or add to this file if you wish to upgrade to newer versions in the future.
- * If you wish to customise this module for your needs.
-  *
- * @category  Ripen
- * @package   Lof_CustomerPassword
- * @copyright Copyright (C) 2018 KiwiCommerce Ltd (https://lof.co.uk/)
- * @license   https://opensource.org/licenses/OSL-3.0
+ * Landofcoder
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Landofcoder.com license that is
+ * available through the world-wide-web at this URL:
+ * https://landofcoder.com/license
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category   Landofcoder
+ * @package    Lof_CustomerPassword
+ * @copyright  Copyright (c) 2022 Landofcoder (https://landofcoder.com/)
+ * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
 namespace Lof\CustomerPassword\Helper;
@@ -20,7 +30,7 @@ use Magento\Store\Model\ScopeInterface;
 
 class Data extends AbstractHelper
 {
-    const RESOURCE_ID = "KiwiCommerce_CustomerPassword::customer_password";
+    const RESOURCE_ID = "Lof_CustomerPassword::customer_password";
     const CONFIG_ENABLE_PATH = 'customer_password/general/enable';
     const CONFIG_ENABLE_CLI = 'customer_password/general/enable_cli';
 
